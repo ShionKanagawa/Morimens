@@ -1,0 +1,34 @@
+====================
+    06-18-2024     
+====================
+
+====================
+    06-17-2024     
+====================
+\n* frameworks/av\n95cdcce  [DO NOT MERGE] goddammit google  [bengris32]\n
+\n* frameworks/base\n94d6e53  PhoneWindowManager: Check camera availability on camera key long press  [dantmnf]
+9d16619  Re-introduce LiveDisplay from Lineage  [ShirokaneShizuku]
+3096ab8  utils: Introduce FileUtils class  [Michael Bestas]\n
+\n* packages/apps/Settings\n3bd6c64  Settings: Changes for LiveDisplay  [jhenrique09]
+1a3c9b5  Settings: Add Simplified Chinese translation  [ianchb]\n
+
+====================
+    06-16-2024     
+====================
+\n* packages/apps/Flash\n6ff8dbe  Flash: Add x86/x86_64 ZXing-C++ JNI libs  [LuK1337]
+93be9af  Flash: Update CameraX to 1.4.0-beta02  [LuK1337]\n
+
+====================
+    06-15-2024     
+====================
+
+====================
+    06-14-2024     
+====================
+\n* bootable/recovery\nb6f20b1  Add e2fsck/resize2fs/tune2fs to recovery  [Michael Bestas]\n
+\n* build/make\nfe776e4  Revert "Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk"  [Alexander Winkowski]\n
+\n* frameworks/av\ne30837b  mp3dec: Update input buffer validation checks to handle EOS case  [Harish Mahendrakar]\n
+\n* frameworks/base\n863ab1e  core: Switch to Hastebin for copying crash logs  [AshutoshSundresh]\n
+\n* hardware/qcom-caf/common\n4751664  libqti-perfd-client: Add more dummy methods  [someone5678]\n
+\n* manifest\n14e0df3  Track forked device/generic/common  [Tom Pratt]\n
+
