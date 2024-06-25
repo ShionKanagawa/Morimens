@@ -1,34 +1,144 @@
 ====================
-    06-18-2024     
+    06-25-2024     
 ====================
+\n* frameworks/av\nc858feb  AHandler: fix-up vtservice cpu hogging  [bengris32]\n
+\n* frameworks/base\nd78ce92  Re-introduce LiveDisplay from Lineage  [Henrique Silva]
+3ab1780  utils: Introduce FileUtils class  [Michael Bestas]
+cecdc58  PhoneWindowManager: Check camera availability on camera key long press  [dantmnf]
+99b58b0  BatteryMeterView: Fixup show percentage only when charging  [Ido Ben-Hur]\n
+\n* hardware/qcom-caf/common\n6bda9b8  fwd-detect: Create symlink target for CneApp  [Bruno Martins]\n
+\n* packages/apps/Settings\nd79402c  Settings: Changes for LiveDisplay  [jhenrique09]
+cc36bd7  Settings: Add Simplified Chinese translation  [ianchb]
+fac4edc  Settings: Skip auth for WiFi net share when unlocked in the last 60s  [Ido Ben-Hur]\n
+\n* packages/apps/Updater\n847c276  Updater: Only My Railgun!  [ShirokaneShizuku]\n
 
 ====================
-    06-17-2024     
+    06-24-2024     
 ====================
-\n* frameworks/av\n95cdcce  [DO NOT MERGE] goddammit google  [bengris32]\n
-\n* frameworks/base\n94d6e53  PhoneWindowManager: Check camera availability on camera key long press  [dantmnf]
-9d16619  Re-introduce LiveDisplay from Lineage  [ShirokaneShizuku]
-3096ab8  utils: Introduce FileUtils class  [Michael Bestas]\n
-\n* packages/apps/Settings\n3bd6c64  Settings: Changes for LiveDisplay  [jhenrique09]
-1a3c9b5  Settings: Add Simplified Chinese translation  [ianchb]\n
+\n* art\nbeaf6e3  Revert "Remove strip.keep_symbols from libart defaults"  [Dmitry Muhomor]\n
+\n* build/make\n02172c5  Allow installing fake [odm|product|system_ext] packages  [Alexander Koskovich]\n
+\n* frameworks/base\n01c866d  PixelPropsUtils: Update from husky june release  [NurKeinNeid]
+f420985  SystemUI: Remove monochromatic theme  [Ido Ben-Hur]
+77c5806  Revert "SystemUI: Improve bouncer layout"  [NurKeinNeid]
+17be7d4  Revert "SystemUI: Optional bouncer user switcher [1/2]"  [NurKeinNeid]
+f3dae20  SystemUI: Correctly monet theme the new volume panel  [Ido Ben-Hur]
+4c70ef3  WallpaperManagerService: Get rid of removed UIDs that have set dim  [Ido Ben-Hur]
+236aa47  Revert "UEventObserver: ignore uevents without name"  [Dhina17]
+0006903  SystemUI: KeyguardUnlockAnimationController: Catch all exception  [someone5678]
+0f4f26e  SystemUI: StatusBarIconController: Prevent an NPE on early boot  [Ido Ben-Hur]
+7540d3c  base: Allow using QS media player time as next & previous [1/2]  [Ido Ben-Hur]
+3cd1e15  base: Allow limiting custom app actions in QS media player [1/2]  [Ido Ben-Hur]
+8ba14f7  SystemUI: Allow toggling the sperm media seek bar on runtime  [Ido Ben-Hur]
+a7fb5a6d2  SystemUI: styles: Kill the thumb drawable as well  [Ido Ben-Hur]
+5d32dba  SystemUI: styles: Kill the sperm  [Ido Ben-Hur]
+0709508  fixup! base: Add support for disabling fingerprint lockout [1/2]  [Tim Zimmermann]
+c58e09d9  fixup! SystemUI: Add statusbar NFC icon  [someone5678]
+0f9c2ae  fixup! SystemUI: Implement face unlock recognition animation and text  [someone5678]
+44c5560  fixup! Add Face Unlock with ParanoidSense  [someone5678]\n
+\n* hardware/qcom-caf/common\n13d55d6  Introduce RFS install_symlink targets  [Bruno Martins]\n
+\n* packages/apps/DerpSpace\na62e5d1  Revert "DerpSpace: Optional bouncer user switcher [2/2]"  [NurKeinNeid]\n
+\n* packages/apps/Settings\n3c0e3e5  Settings: Don't directly call onStart/onStop on dialogs  [Sebastiano Barezzi]\n
+\n* packages/apps/Updater\n0b925b8  Conditionally hide performance mode toggle if unsupported  [Eamon Powell]
+e3d93a6  Catch exceptions when enabling performance mode  [Eamon Powell]\n
+\n* tools/extract-utils\ne3d40c9  extract-utils: Make symlink_target account for moved blobs  [Bruno Martins]
+19df2c5  extract-utils: Fix ARCH of symlinks installed to app folders  [Bruno Martins]
+79a2a0f  extract-utils: Set install_symlink PREFIX based on installed_location  [Mashopy]\n
 
 ====================
-    06-16-2024     
+    06-23-2024     
 ====================
-\n* packages/apps/Flash\n6ff8dbe  Flash: Add x86/x86_64 ZXing-C++ JNI libs  [LuK1337]
-93be9af  Flash: Update CameraX to 1.4.0-beta02  [LuK1337]\n
+\n* frameworks/base\n3b9a0b2  fixup! Porting menu button from pie to new pipeline  [Dhina17]
+848e522  fixup! SystemUI: Show daily data usage in QS footer  [Dhina17]
+f62020e  fixup! SystemUI: Forward port 'HD & wifi calling statusbar icons'  [Dhina17]
+420c2bb  fixup! Power menu styles: Initial checkin for U [1/3]  [Dhina17]
+5276cb7  core: Move Lineage notification LED code to NotificationAttentionHelper  [LuK1337]
+3dd89d7  fixup! Screenshot: Add delete action chip intent  [someone5678]
+1c87437  core: jni: Add backwards compat methods for QCOM WFD  [LuK1337]
+411cd17  fixup! Add support for runtime toggle of navbar  [Michael Bestas]
+3e04144  fixup! Screenrecord: Allow to select AVC codec profile level  [Michael Bestas]
+5b9a55f  fixup! Screenrecord: Allow limiting the max framerate  [Michael Bestas]
+0cbd11e  fixup! SystemUI: Enable NFC tile  [Bruno Martins]
+a952edd  fixup! camera: Skip HFR checks for privileged apps.  [Dominik Baronelli]
+eefdbdb  Revert "camera: Allow extending aux list/excludelist via sdk resources"  [Dominik Baronelli]
+826f6d7  fixup! fwb: Re-introduce keyboard backlight brightness control  [Michael Bestas]
+bb0c4d5  fixup! fw/b: Button backlight brightness  [Michael Bestas]
+848f689  fixup! AutoBrightness: Add support for one shot auto-brightness  [Michael Bestas]
+58fd199  fixup! JobScheduler: Respect allow-in-power-save perm  [Chirayu Desai]
+79ba397  fixup! PowerManager: Add proximity check on wake  [Michael Bestas]
+470c5c0  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/frameworks/base into 14  [NurKeinNeid]
+1848e22  Revert "Work around the flicker on enter PiP for foldables"  [Michael Bestas]
+73f24c1  Partially revert "[RESTRICT AUTOMERGE] Check permission of Autofill icon URIs"  [Michael Bestas]
+61bab88  Revert "Force disable Note Task Shortcut"  [Michael Bestas]
+728de44  Revert "SystemUI: Remove nav bar background in QS customizer"  [Michael Bestas]
+2c8e328  Revert "base: Add haptic feedback to volume slider [1/2]"  [NurKeinNeid]
+a0b9735  Revert "fwb: Screen off animations [1/2]"  [NurKeinNeid]
+a80e1b9  Revert "wm: Make freeform windows rounded and radius sync up with system corner radius"  [NurKeinNeid]
+3d156d0  Revert "SystemUI: Use VibratorHelper for custom haptic feedback"  [NurKeinNeid]
+c88529d  Revert "SystemUI: Relax slider haptic feedback"  [NurKeinNeid]
+0add085  Revert "base: Contionally enable some haptic feedback"  [NurKeinNeid]\n
+\n* frameworks/native\ndcce80c  SF: Bring back support for disabling backpressure propagation  [Adithya R]\n
+\n* hardware/interfaces\na1f9b01  compatibility_matrices: Add p/android-4.4 into FCM 5  [Michael Bestas]
+6ddc745  Restore q/android-4.9 again  [Michael Bestas]
+7a78b50  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/hardware/interfaces into 14  [NurKeinNeid]
+e2a3bf3  Revert "Set min_sdk_version for supplicant/hostapd aidl_interface"  [Michael Bestas]
+f376604  Revert "Reapply "Set min_sdk_version:34""  [Michael Bestas]\n
+\n* packages/apps/DerpLauncher\n2dbb477  DerpLauncher: Bump version to AP2A.240605.024  [NurKeinNeid]
+02438aa  fixup! DerpLauncher: Add uninstall button to system shortcuts  [Dhina17]
+a06768b  fixup! DerpLauncher: fix overview scrolling scale animation  [Dhina17]
+80fc088  fixup! DerpLauncher: Add Icon Pack Support from Shade Launcher [SQUASHED]  [Dhina17]
+504528f  fixup! DerpLauncher: Rearrange settings into categories  [Dhina17]
+90f660f  fixup! Work tab adjustments for multiple profiles  [Tommy Webb]
+ed16fd2  fixup! DerpLauncher: Fix pausing work apps from multiple profiles  [Tommy Webb]
+02f87ad  fixup! DerpLauncher: allow disabling workspace edit  [Michael Bestas]
+66f19d0  fixup! DerpLauncher: update build configs  [Bruno Martins]
+3ad00dc  Revert "DerpLauncher: ui: Fix premature short-circuit on end spring anim"  [Tommy Webb]
+9007d41  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/packages/apps/Launcher3 into 14  [NurKeinNeid]
+ed74f3b  Revert "DerpLauncher: Launch apps in freeform mode system shortcut"  [NurKeinNeid]
+b8b4a77  Revert "DerpLauncher: Hide freeform shortcut if app doesnt support freeform"  [NurKeinNeid]
+6e8476d  Revert "DerpLauncher: freeform: Launch tasks as tasks overlays"  [NurKeinNeid]
+bf113cb  Revert "DerpLauncher: Make freeforms launched from shortcut always on top"  [NurKeinNeid]
+e1e1c5e  Revert "Revert "Revert "Revert "Removing unnecessary iconFactory class w...""  [Michael Bestas]
+c1ea6be  Revert "Hide taskbar icons for IME when virtual keyboard is present."  [Michael Bestas]
+11dbe38  Revert "Fix onIsStashedChanged() not called in 3 button mode"  [Michael Bestas]
+dcdaffc  Revert "Revert to passing mIsStashed to StashedHandleViewController again"  [Michael Bestas]
+b9e618c  Reapply "Adding ReorderParameters to ReorderAlgorithm"  [Michael Bestas]\n
+\n* packages/apps/DerpSpace\ne5368a8  DerpSpace: We no longer have the monochromatic theme  [Ido Ben-Hur]
+1684d96  Revert "DerpSpace: Screen off animations [2/2]"  [NurKeinNeid]\n
+\n* packages/apps/Settings\n5634322  fixup! Implement notificationlight settings  [Mohammad Hasan Keramat J]
+0ef210d  Settings: Allow using QS media player time as next & previous [2/2]  [Ido Ben-Hur]
+17ec97c  Settings: Allow limiting custom app actions in QS media player [2/2]  [Ido Ben-Hur]
+9a471bb  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/packages/apps/Settings into 14  [NurKeinNeid]
+27fd514  Partially revert "Settings: Add haptic feedback on sliders [2/2]"  [NurKeinNeid]
+fae50f9  Revert "Settings: Use VibratorHelper for custom haptic feedback"  [NurKeinNeid]
+c6d8133  Revert "Settings: Relax slider haptic feedback"  [NurKeinNeid]
+31b04b4  Revert "Settings: Contionally enable some haptic feedback option"  [NurKeinNeid]\n
+\n* vendor/derp\n353191b  fixup! Hookup GRALLOC_HANDLE_HAS_UBWCP_FORMAT  [AdarshGrewal]
+cc19c49  Revert "Hookup SDMCORE_HAS_IS_DISPLAY_HW_AVAILABLE_FUNC"  [Bruno Martins]
+a6fcb9a  config: add IColorEnhancement to FCM  [Han Sol Jin]\n
+\n* vendor/overlay\n85b5301  clocks: update from husky-ap2a.240605.024  [NurKeinNeid]\n
 
 ====================
-    06-15-2024     
+    06-22-2024     
 ====================
+\n* art\ndcf9fff  art: Add support for Cortex-A510  [Jake Weinstein]\n
+\n* hardware/libhardware\nb923f81  libhardware: Fix symlinks for audio_amplifier and display_defs  [Vivekachooz]\n
+\n* hardware/qcom-caf/common\n700f7de  Introduce legacy FCM  [Michael Bestas]\n
+\n* vendor/pixel-framework\nbcbd83f  SystemUIGoogle: Update  [someone5678]\n
 
 ====================
-    06-14-2024     
+    06-21-2024     
 ====================
-\n* bootable/recovery\nb6f20b1  Add e2fsck/resize2fs/tune2fs to recovery  [Michael Bestas]\n
-\n* build/make\nfe776e4  Revert "Add e2fsck/resize2fs/tune2fs to recovery/vendor_ramdisk"  [Alexander Winkowski]\n
-\n* frameworks/av\ne30837b  mp3dec: Update input buffer validation checks to handle EOS case  [Harish Mahendrakar]\n
-\n* frameworks/base\n863ab1e  core: Switch to Hastebin for copying crash logs  [AshutoshSundresh]\n
-\n* hardware/qcom-caf/common\n4751664  libqti-perfd-client: Add more dummy methods  [someone5678]\n
-\n* manifest\n14e0df3  Track forked device/generic/common  [Tom Pratt]\n
+\n* art\n7cf66dd  art: Disable debug tracing on production builds  [Danny Lin]\n
+\n* build/make\n9741bb5  make: envsetup.sh: Fix roomservice  [Ido Ben-Hur]\n
+\n* frameworks/libs/systemui\n6b6c0d1  Reapply "Multiple work profile badge colors for Launcher3" for QPR3  [Tommy Webb]
+17269c1  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/frameworks/libs/systemui into 14  [NurKeinNeid]
+fb0694c  Squashed revert of "Multiple work profile badge colors for Launcher3"  [Tommy Webb]
+304c837  Revert "Revert^3 "Creating a custom drawable for user badge""  [Michael Bestas]\n
+\n* manifest\n401ba1b  manifest: Switch to our fork of external/robolectric  [Michael Bestas]
+09f2287  pixel: June 2024 Quarterly Platform Release and Security update  [Michael Bestas]
+6286e16  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/manifest into 14  [NurKeinNeid]\n
+\n* system/extras\nc0c1ab9  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/system/extras into 14  [NurKeinNeid]\n
+\n* system/logging\nb17bfa0  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/system/logging into 14  [NurKeinNeid]\n
+\n* system/security\nf0104a5  Merge tag 'android-14.0.0_r50' of https://android.googlesource.com/platform/system/security into 14  [NurKeinNeid]\n
+\n* vendor/derp\nee057c5  Revert "derp: Add CUSTOM_SECURITY_PATCH prop"  [NurKeinNeid]\n
 
