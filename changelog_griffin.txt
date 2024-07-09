@@ -1,57 +1,25 @@
 ====================
-    07-06-2024     
+    07-09-2024     
+====================
+\n* build/make\n07e8016  Allow retrofitting when PRODUCT_SHIPPING_API_LEVEL >= 30  [voidanix]\n
+
+====================
+    07-08-2024     
+====================
+
+====================
+    07-07-2024     
 ====================
 \n* packages/apps/Updater\n66816cd  Updater: Only My Railgun!  [ShirokaneShizuku]\n
 
 ====================
-    07-05-2024     
+    07-06-2024     
 ====================
 \n* frameworks/av\n41e1d72  AHandler: fix-up vtservice cpu hogging  [bengris32]\n
+
+====================
+    07-05-2024     
+====================
 \n* vendor/derp\n1d3b354  overlay: Enable the app battery usage list page feature  [LuK1337]\n
 \n* vendor/qcom/opensource/commonsys/fm\n99846b5  Revert "FMApp2: Bring in the new icon"  [NurKeinNeid]\n
-
-====================
-    07-04-2024     
-====================
-
-====================
-    07-03-2024     
-====================
-\n* bootable/recovery\na35ac2b  updater: Support loading dynamic partition metadata from OTA  [Yumi Yukimura]\n
-\n* build/make\na30e979  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/build into 14  [NurKeinNeid]
-5a6256c  releasetools: Pass non-sparse super_empty.img to update_dynamic_partitions()  [Yumi Yukimura]
-6aeea58  releasetools: build_super_image: Do not set readonly attr  [Yumi Yukimura]
-1f22c4a  build: Enable super image build rules depending on single super block device  [Yumi Yukimura]\n
-\n* build/release\n9e8ff7d  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/build/release into 14  [NurKeinNeid]\n
-\n* frameworks/av\n54bfc2b  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/frameworks/av into 14  [NurKeinNeid]
-e60dd26  codec2: a workaround to solve backward compatibility issue  [Jiajia Cong]\n
-\n* frameworks/base\n118a658  Intent firewall enhancement  [nift4]
-86c6afe  SystemUI: Fix Internet Tile showing no service  [Tommy Webb]
-2bb8438  Fix default values for 5G Ultra Wideband icon carrier config keys  [Vala Zadeh]
-1bde470  Add 5G Ultra Wideband icon carrier config keys  [Vala Zadeh]
-44bbaaf  PixelPropsUtils: Update from husky july release  [NurKeinNeid]
-c9ec58b  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/frameworks/base into 14  [NurKeinNeid]\n
-\n* hardware/google/graphics/common\na4c7d42  Merge tag 'android-14.0.0_r53' into staging/lineage-21.0_merge-android-14.0.0_r53  [Michael Bestas]\n
-\n* hardware/interfaces\n5868a2d  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/hardware/interfaces into 14  [NurKeinNeid]\n
-\n* hardware/qcom-caf/sdm845/display\n19a1164  gralloc: Allow devices to opt-in for YCrCb camera video encode  [Ivan Vecera]
-2ff1fba  gralloc: Select CPU readable YCbCr format  [Mathew Joseph Karimpanal]\n
-\n* manifest\n74503f9  pixel: July 2024 Security update  [Chirayu Desai]
-46e1059  manifest: Add aosp-akita remote  [Michael Bestas]
-13f16f6  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/manifest into 14  [NurKeinNeid]
-b01c28a  Manifest for Android 14.0.0 Release 53  [The Android Open Source Project]
-9cb5b5e  Manifest for Android 14.0.0 Release 52  [The Android Open Source Project]\n
-\n* packages/apps/DerpLauncher\n615e14f  DerpLauncher: Bump version to AP2A.240705.005  [NurKeinNeid]\n
-\n* packages/apps/Flash\n362114e  Automatic translation import  [LineageOS Infra]\n
-\n* packages/apps/FlipFlap\n3b20ffc  Automatic translation import  [LineageOS Infra]\n
-\n* packages/apps/Settings\n861add6  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/apps/Settings into 14  [NurKeinNeid]\n
-\n* packages/modules/common\nbf3780f  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/modules/common into 14  [NurKeinNeid]\n
-\n* packages/providers/MediaProvider\n1d94b68  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/packages/providers/MediaProvider into 14  [NurKeinNeid]\n
-\n* packages/resources/devicesettings\ncb71c22  Automatic translation import  [LineageOS Infra]\n
-\n* system/core\n599d7ba  init: devices: Add option to accept any device as boot device  [Yumi Yukimura]
-e5f609c  fixup! liblp: Allow to flash on bigger block device  [me-cafebabe]\n
-\n* system/media\n0022368  Merge tag 'android-14.0.0_r53' of https://android.googlesource.com/platform/system/media into 14  [NurKeinNeid]\n
-
-====================
-    07-02-2024     
-====================
 
