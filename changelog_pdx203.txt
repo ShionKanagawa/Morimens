@@ -1,37 +1,49 @@
 ====================
+    11-24-2024     
+====================
+
+====================
+    11-23-2024     
+====================
+\n* vendor/derp\n4e95d7b  config: Changes for libfmjni bp conversion  [Michael Bestas]\n
+
+====================
+    11-22-2024     
+====================
+\n* build/release\n2d841ca  Bump Security String to 2024-11-01  [Michael Bestas]\n
+\n* frameworks/base\n99a8a04  PixelPropsUtils: Update fingerprint to latest akita_beta for spoofing GMS  [chiteroman]
+73c1e6d  Automatic translation import  [LineageOS Infra]
+7c55b13  BACKPORT: Clear icons for app/ime keyboard shortcuts in shortcut helper.  [Ben Murdoch]
+bfe620d  Automatic translation import  [LineageOS Infra]
+31840cd  Remove values-lu  [Michael W]
+72d133d  Automatic translation import  [LineageOS Infra]
+51b1eec  fixup! Implement firewall status bar indicator  [Tommy Webb]
+6efa464  Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/frameworks/base into 14  [NurKeinNeid]
+76e5297  Correction in logic of roundend size calculation of SD card  [Chetan Gurjar]
+e5a75eb  VolumeDialog: Bail out if app volume view is null  [Adithya R]
+385c88a  SenseProvider: Allow our face unlock to be used on third-party apps  [jhenrique09]
+61287aa  SystemUI: Fix fontinterpolator unable to interpolate due to unknown default axes value  [Alvin Francis]\n
+\n* frameworks/native\nf3e1a36  Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/frameworks/native into 14  [NurKeinNeid]\n
+\n* manifest\n684ebb5  manifest: Track our own forks for 2024-11 ASB patching  [Kevin F. Haggerty]\n
+\n* packages/apps/Settings\n36e2c68  Automatic translation import  [LineageOS Infra]
+0f72b9a  Remove values-lu  [Michael W]
+7962b6e  Automatic translation import  [LineageOS Infra]
+fe6394d  Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/packages/apps/Settings into 14  [NurKeinNeid]\n
+\n* packages/modules/Wifi\n0dda3f8  Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/packages/modules/Wifi into 14  [NurKeinNeid]\n
+\n* packages/providers/MediaProvider\n65165a1  Merge tag 'android-security-14.0.0_r14' of https://android.googlesource.com/platform/packages/providers/MediaProvider into 14  [NurKeinNeid]\n
+\n* vendor/derp\n880b67f  config: Add text classifier files to allowed product artifacts  [LuK1337]
+547521b  config: Move the textclassifier models to common_mobile  [NurKeinNeid]
+6baa6ee  build: Make gsi_arm{,64} inherit full_base_telephony.mk  [LuK1337]
+153485d  envsetup: Bypass API modified validations  [NurKeinNeid]
+da712c1  config: Allow to override some props  [Dhina17]
+948f5b3  overlay: Update default keyguard affordance setup  [Jyotiraditya Panda]
+055c01f  derp: Update CUSTOM_SECURITY_PATCH for November 2024 Security update  [NurKeinNeid]\n
+
+====================
+    11-21-2024     
+====================
+
+====================
     11-20-2024     
-====================
-
-====================
-    11-19-2024     
-====================
-
-====================
-    11-18-2024     
-====================
-\n* packages/apps/Flash\nc93da45  Automatic translation import  [LineageOS Infra]
-b243ea0  Flash: Update CameraX to 1.5.0-alpha03  [LuK1337]
-51e7c03  Automatic translation import  [LineageOS Infra]
-5e544ab  Flash: Don't use resource from other package  [Luca Stefani]
-4ae8e13  Flash: Optimize and shrink resources  [Luca Stefani]
-2b8c5c5  Automatic translation import  [LineageOS Infra]
-0e85b02  Flash: Replace deprecated .reuse/dep5 with REUSE.toml  [Michael Bestas]
-f4751dd  Automatic translation import  [LineageOS Infra]
-49b46fa  Flash: Update CameraX to 1.5.0-alpha02  [LuK1337]
-d0d1345  Automatic translation import  [LineageOS Infra]
-e826e6b  Automatic translation import  [LineageOS Infra]
-c520ad7  Flash: Enable ZXing-C++ tryInvert option  [LuK1337]
-5d35ce3  Flash: SettingsActivity: Only two-way gestures can invert buttons  [Sebastiano Barezzi]
-d1627f4  Flash: SettingsActivity: Deduplicate HardwareKey prefs keys  [Sebastiano Barezzi]
-32a9dc0  Flash: Update CameraX to 1.5.0-alpha01  [LuK1337]
-e01701f  Automatic translation import  [LineageOS Infra]\n
-\n* packages/apps/Settings\n121fd91  Settings: Update wallpaper dashboard summary to be inline with Pixels  [NurKeinNeid]\n
-
-====================
-    11-17-2024     
-====================
-
-====================
-    11-16-2024     
 ====================
 
